@@ -14,7 +14,7 @@ const nameOfFolder = 'mapas_rotas_mercosul_line'// o nome da pasta pode ser alte
  *@param __dirname, é o caminho padrão para criar a pasta dentro do diretorio, para trocar o local de criação da pasta, basta mudar removendo o @param __dirname por um caminho valido como por exemplo: 'Desktop' ou algo do tipo
 *  
 **/
-const folderCreationLocation = __dirname
+// const folderCreationLocation = __dirname
 
 const listOfQuestions = [
   'Insira o nome da pasta:',
