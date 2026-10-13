@@ -4,10 +4,10 @@ import fs from 'fs'
 import path from "path";
 import readLine from 'readline'
 const userFolderPath = process.env.USERPROFILE
-const URL = "https://www.mercosul-line.com.br" //trocar pela url de destino dos arquivos
+const URL = "http://exemplo.com" //trocar pela url de destino dos arquivos
 
 
-const nameOfFolder = 'mapas_rotas_mercosul_line'// o nome da pasta pode ser alterado para o qualquer outro
+const nameOfFolder = 'arquivos_pessoais'// o nome da pasta pode ser alterado para o qualquer outro
 
 /**
  * @description folderCreationLocation  
@@ -83,7 +83,7 @@ const callFileDowloadFunction = async (folderLocation) => {
 
 }
 
-// callFileDowloadFunction()
+callFileDowloadFunction()
 
 
 
